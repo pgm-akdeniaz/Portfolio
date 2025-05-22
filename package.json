@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-front-end-pgm-akdeniaz",
+  "name": "portfolio-akdenis",
   "version": "1.0.0",
   "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/IFrMetkU)",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pgmgent-web-3/portfolio-front-end-pgm-akdeniaz.git"
+    "url": "git+https://github.com/pgm-akdeniaz/Portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pgmgent-web-3/portfolio-front-end-pgm-akdeniaz/issues"
+    "url": "https://github.com/pgm-akdeniaz/Portfolio/issues"
   },
-  "homepage": "https://github.com/pgmgent-web-3/portfolio-front-end-pgm-akdeniaz#readme",
+  "homepage": "https://github.com/pgm-akdeniaz/Portfolio#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "copy-webpack-plugin": "^13.0.0",

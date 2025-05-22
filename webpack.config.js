@@ -18,7 +18,7 @@ module.exports = {
         test: /\.(woff2?|ttf|otf|eot)$/i,
         type: "asset/resource",
         generator: {
-          filename: "fonts/Inter-Regular.woff2",
+          filename: "public/fonts/Inter-Regular.woff2",
         },
       },
     ],
@@ -35,7 +35,9 @@ module.exports = {
   },
   plugins: [
     new CopyPlugin({
-      patterns: [{ from: "assets/icons", to: "assets/icons" }],
+      patterns: [
+        { from: "assets/icons", to: "assets/icons", noErrorOnMissing: true },
+      ],
     }),
   ],
 };
