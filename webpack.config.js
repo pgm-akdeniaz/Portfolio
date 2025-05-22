@@ -39,5 +39,9 @@ module.exports = {
         { from: "assets/icons", to: "assets/icons", noErrorOnMissing: true },
       ],
     }),
+    new HtmlWebpackPlugin({
+      template: "index.html",
+      filename: "index.html",
+    }),
   ],
 };
