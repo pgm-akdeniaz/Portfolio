@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <title>Akdenis Niaziev | Portfolio</title>
+<!-- favicon -->
+<link rel="icon" type="image/png" href="assets/media/my-favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="assets/media/my-favicon/favicon.svg" />
+<link rel="shortcut icon" href="assets/media/my-favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/media/my-favicon/apple-touch-icon.png" />
+<link rel="manifest" href="assets/media/my-favicon/site.webmanifest" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="navbar" id="navbar">
+        <div class="logo">
+          <img src="/assets/icons/Akdenis.webp" alt="Akdenis Niaziev Logo" />
+        </div>
+
+        <ul class="navbar-tabs-ul">
+          <li class="activeThistab"><a href="#about">&#60;/AboutMe&#62;</a></li>
+          <li><a href="#projects">&#60;/Projects&#62;</a></li>
+          <li><a href="#skills">&#60;/Skills&#62;</a></li>
+          <li><a href="#cv">&#60;/Resume&#62;</a></li>
+          <li><a href="#contact">&#60;/Contact&#62;</a></li>
+        </ul>
+
+        <div class="navbar-right">
+          <img
+            src="/assets/icons/sun.png"
+            alt="Toggle Light Mode"
+            class="sun-toggle-icon"
+          />
+          <div class="hamburger" id="hamburger" data-aos="fade">
+            <button
+              class="navbar__hamburger-button"
+              id="hamburger-button"
+              tabindex="0"
+              aria-label="Menu Button"
+            >
+              <span class="burger-bar" id="burger-bar1"></span>
+              <span class="burger-bar" id="burger-bar2"></span>
+              <span class="burger-bar" id="burger-bar3"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- header ends here -->
+
+    <div class="mobiletogglemenu" id="mobiletogglemenu">
+      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+        <li
+          id="home-mobile-tab"
+          class="mobile-navbar-tabs-li home activeThismobiletab"
+          onclick="hidemenubyli()"
+        >
+          <a href="#home" tabindex="0" aria-label="Home menu button">
+            &lt;/Home&gt;
+          </a>
+        </li>
+
+        <li
+          id="aboutme-mobile-tab"
+          class="mobile-navbar-tabs-li about"
+          onclick="hidemenubyli()"
+        >
+          <a href="#about" tabindex="0" aria-label="about menu button">
+            &lt;/AboutMe&gt;
+          </a>
+        </li>
+        <li
+          id="skills-mobile-tab"
+          class="mobile-navbar-tabs-li skills"
+          onclick="hidemenubyli()"
+        >
+          <a href="#skills" tabindex="0" aria-label="skills menu button">
+            &lt;/Skills&gt;
+          </a>
+        </li>
+        <li
+          id="services-mobile-tab"
+          class="mobile-navbar-tabs-li education"
+          onclick="hidemenubyli()"
+        >
+          <a href="#cv" tabindex="0" aria-label="services menu button">
+            &lt;/Resume&gt;
+          </a>
+        </li>
+        <li
+          id="projects-mobile-tab"
+          class="mobile-navbar-tabs-li projects"
+          onclick="hidemenubyli()"
+        >
+          <a href="#projects" tabindex="0" aria-label="projects menu button">
+            &lt;/Projects&gt;
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- mobiletogglemenu ends here -->
+
+    <section class="landing-page-container" id="home">
+      <article
+        id="name"
+        data-aos="fade-up"
+        data-aos-delay="200"
+        class="aos-init aos-animate"
+      >
+        <h1>
+          <span class="jello">A</span>
+          <span class="jello">k</span>
+          <span class="jello">d</span>
+          <span class="jello">e</span>
+          <span class="jello">n</span>
+          <span class="jello">i</span>
+          <span class="jello">s&nbsp;</span>
+          <span class="jello">N</span>
+          <span class="jello">i</span>
+          <span class="jello">a</span>
+          <span class="jello">z</span>
+          <span class="jello">i</span>
+          <span class="jello">e</span>
+          <span class="jello">v</span>
+        </h1>
+      </article>
+    </section>
+
+    <main class="main" role="main">
+      <section
+        id="about"
+        class="section section--about"
+        aria-labelledby="about-heading"
+      >
+        <h2 id="about-heading" class="section__title skills-heading-article">
+          &#60;/About Me&#62;
+        </h2>
+        <p class="section__description">
+          I'm Akdenis Niaziev, I am a motivated and detail-oriented professional
+          with a background in both retail and industrial environments. I am
+          currently studying Web Development at Arteveldehogeschool in Ghent,
+          where I focus on programming, UI/UX design, and interactive
+          technologies. With prior experience in retail operations and machine
+          handling, I bring a strong work ethic, problem-solving mindset, and
+          passion for continuous learning. My goal is to become a Full-Stack
+          Developer and contribute to innovative digital projects.
+        </p>
+      </section>
+      <!-- about section ends here -->
+
+      <section
+        id="skills"
+        class="section section--skills"
+        aria-labelledby="skills-heading"
+      >
+        <h2 id="skills-heading" class="section__title skills-heading-article">
+          &#60;/Skills&#62;
+        </h2>
+        <ul class="skills__list">
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="/assets/icons/html.png"
+              alt="HTML skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">HTML</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/css.png"
+              alt="CSS skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">CSS</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/js.png"
+              alt="JavaScript skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">JavaScript</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/react.png"
+              alt="React.js skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">React.js</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/nextjs.png"
+              alt="Next.js skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">Next.js</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/nodejs.png"
+              alt="Node.js skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">Node.js</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/express.png"
+              alt="Express skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">Express</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/php.png"
+              alt="PHP skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">PHP</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/laravel.png"
+              alt="Laravel skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">Laravel</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/mysql.png"
+              alt="MySQL skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">MySQL</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/craftcms.png"
+              alt="Craft CMS skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">Craft CMS</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/json.png"
+              alt="JSON skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">JSON</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/webpack.png"
+              alt="Webpack skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">Webpack</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/git.png"
+              alt="Git skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">Git</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/github.png"
+              alt="GitHub skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">GitHub</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/csharp.png"
+              alt="C# skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">C#</span>
+          </li>
+
+          <li class="skills__item" data-aos="fade-up">
+            <img
+              src="../assets/icons/cpp.png"
+              alt="C++ skill"
+              class="skills__logo"
+            />
+            <span class="tooltip">C++</span>
+          </li>
+        </ul>
+      </section>
+      <!-- skills section ends -->
+
+      <section id="cv" class="section section--cv" aria-labelledby="cv-heading">
+        <h2 id="cv-heading" class="section__title skills-heading-article">
+          &#60;/Resume&#62;
+        </h2>
+        <article class="cv__item">
+          <h3 class="cv__title">Education</h3>
+          <p class="cv__description">
+            Associate's Degree in Computer Programming – Arteveldehogeschool,
+            Ghent (Sep 2024 – Aug 2026)
+          </p>
+        </article>
+        <article class="cv__item">
+          <h3 class="cv__title">Experience</h3>
+          <p class="cv__description">
+            Worker at Volvo Cars (Aug 2020 – Sep 2023) – Machine operation,
+            quality control, team coordination.
+            <br />
+            Retail Associate at Carrefour (Mar 2021 – Jun 2021) – Customer
+            service, inventory, and cashier operations.
+          </p>
+        </article>
+      </section>
+
+      <section
+        id="projects"
+        class="section section--projects"
+        aria-labelledby="projects-heading"
+      >
+        <h2
+          id="projects-heading"
+          class="section__title projects-heading-article"
+        >
+          &#60;/Projects&#62;
+        </h2>
+        <div class="projects__list">
+          <article class="project">
+            <h3 class="project__title">STAM - Website</h3>
+            <a
+              href="https://pgm-2425-atwork-1.github.io/project-1-pgm-akdeniaz/"
+              target="_blank"
+              class="project__link"
+              >Visit Site</a
+            >
+          </article>
+          <article class="project">
+            <h3 class="project__title">BestOf2024</h3>
+            <a
+              href="https://pgm-2425-atwork-1.github.io/project-2-pgm-akdeniaz/"
+              target="_blank"
+              class="project__link"
+              >Visit Site</a
+            >
+          </article>
+        </div>
+      </section>
+      <!-- projects section ends here -->
+
+      <section class="contact" id="contact">
+        <div class="contact-heading" data-aos="fade-up">
+          <h2
+            class="contact-heading-article"
+            tabindex="0"
+            aria-label="Contact Me starts from here"
+          >
+            &#60;/Contact Me&#62;
+          </h2>
+          <p class="contactHeadingP"></p>
+        </div>
+
+        <form
+          action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D5j00000DAZO0"
+          method="POST"
+          id="contactForm"
+          data-aos="fade-up"
+        >
+          <input
+            type="hidden"
+            id="lead_source"
+            name="lead_source"
+            value="Portfolio Contact Me"
+          />
+
+          <div class="input-group">
+            <div class="input-box">
+              <input
+                type="text"
+                placeholder="Full Name"
+                id="last_name"
+                name="last_name"
+                required
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                inputmode="email"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <input
+                type="number"
+                inputmode="numeric"
+                placeholder="Phone Number"
+                id="phone"
+                name="phone"
+              />
+              <input
+                type="text"
+                placeholder="Subject"
+                id="00N5j00000Wir6c"
+                name="00N5j00000Wir6c"
+                maxlength="254"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="input-group-2">
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+              name="description"
+              maxlength="50534"
+              required
+            ></textarea>
+            <input
+              type="submit"
+              name="submit"
+              value="Send Message"
+              class="btn"
+            />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- back to top button -->
+    <button
+      id="backtotopbutton"
+      class="back-to-top"
+      onclick="scrolltoTopfunction()"
+      aria-label="Back to top"
+    >
+      ⬆
+    </button>
+
+    <footer class="footer" role="contentinfo">
+      <p class="footer__text">
+        &copy; Design &amp; Built by Akdenis Niaziev | 2025
+      </p>
+    </footer>
+
+    <script type="module" src="/bundle.js"></script>
+  </body>
+</html>

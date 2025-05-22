@@ -1,0 +1,33 @@
+.section--cv {
+  padding: 2rem;
+
+  .cv__item {
+    margin-bottom: 2rem;
+
+    .cv__title {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: var(--color-light-blue);
+    }
+
+    .cv__description {
+      font-size: 1.6rem;
+      color: var(--color-ddd-color);
+      line-height: 1.5;
+    }
+  }
+}
+@media (max-width: 48rem) {
+  .section--cv {
+    padding: 1.5rem;
+
+    .cv__title {
+      font-size: 1.8rem;
+    }
+
+    .cv__description {
+      font-size: 1.4rem;
+    }
+  }
+}

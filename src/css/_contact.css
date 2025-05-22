@@ -1,0 +1,109 @@
+/* === CONTACT === */
+.section--contact {
+  padding: 2rem;
+  mask-image: linear-gradient(to top, transparent 10%, black 80%);
+}
+
+.contact__link {
+  color: var(--color-light-blue);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.contact {
+  margin-top: 2rem;
+  padding: 4rem 2rem;
+  background-color: var(--color-dark-mode);
+}
+
+.contact-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.projects-heading-article,
+.section-heading-article,
+.skills-heading-article,
+.contact-heading-article {
+  font-size: 3rem;
+  font-family: fira code;
+  font-weight: 500;
+  background-image: linear-gradient(
+    90deg,
+    var(--static-heading-gradient-blue),
+    var(--static-heading-gradient-pink)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contactHeadingP {
+  display: none;
+}
+
+form#contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 43.75rem;
+  margin: 0 auto;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.input-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-box input {
+  padding: 1rem 1.5rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  border: 1px solid var(--color-shadowDark);
+  background-color: var(--color-dark-mode);
+  color: var(--color-white);
+}
+
+.input-group-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  border: 1px solid var(--color-shadowDark);
+  background-color: var(--color-dark-mode);
+  color: var(--color-white);
+  resize: vertical;
+}
+
+.btn {
+  padding: 1rem 2.5rem;
+  background: var(--main-color);
+  color: #000;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 1rem var(--main-color);
+  font-weight: 600;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 1.5rem var(--main-color);
+}

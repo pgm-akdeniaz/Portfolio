@@ -1,0 +1,116 @@
+/* === IMPORTS === */
+@import url("./_nav.css");
+@import url("./_theme.css");
+@import url("./_home.css");
+@import url("./_projects.css");
+@import url("./_skills.css");
+@import url("./_resume.css");
+@import url("./_contact.css");
+@import url("./_section.css");
+
+/* === FONT === */
+@font-face {
+  font-family: "Inter";
+  src: url("~assets/fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+/* === ROOT VARIABLES === */
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-dark-mode: #11111b;
+  --color-light-mode: #ece7e1;
+  --color-ddd-color: #ddd;
+  --color-gray: #c4c4c4;
+  --color-purple: #8000ff;
+  --color-light-purple: #cf59e6;
+  --color-light-blue: #6bc5f8;
+  --color-navbarBorder-dark: #e2e2e207;
+  --color-shadowDark: rgba(0, 0, 0, 0.137);
+  --static-heading-gradient-blue: #b0f3f1;
+  --static-heading-gradient-pink: #ffcfdf;
+  --tech-stack-box-first-color: #1a1a29;
+  --tech-stack-box-second-color: rgba(27, 27, 40, 0);
+  --tech-stack-box-border-color: #292929;
+
+  --second-bg-color: #131313;
+  --text-color: white;
+  --main-color: #00ffee;
+}
+
+/* === GLOBAL RESET === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-dark-mode);
+  font-family: "Inter", Whitney, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  color: var(--color-white);
+}
+
+/* === HEADINGS & TEXT === */
+h1 {
+  font-size: 3rem;
+  color: #1f1e1e;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+p,
+li {
+  font-size: 1.6rem;
+}
+
+/* === LIST RESET === */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* === SCROLLBAR STYLING === */
+::-webkit-scrollbar {
+  width: 0.3125rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a10;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-purple);
+}
+
+/* === SELECTION STYLING === */
+::selection {
+  background-color: transparent;
+}

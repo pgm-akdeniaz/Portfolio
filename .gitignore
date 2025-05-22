@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+
+# Editor & system files
+.DS_Store
+*.log
+*.env
+*.local
+
+# VSCode
+.vscode/
+
+# Webpack output
+/public/bundle.js
+/public/bundle.js.map
+
+# OS junk
+Thumbs.db
+ehthumbs.db

@@ -1,0 +1,72 @@
+.landing-page-container {
+  margin-top: 15rem;
+  height: 20vh;
+
+  #name {
+    align-items: flex-start;
+    background: linear-gradient(
+      -45deg,
+      var(--color-light-blue),
+      var(--color-light-purple),
+      var(--color-light-blue),
+      var(--color-light-purple)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: 400% 400%;
+    animation: gradient 3s infinite;
+    -webkit-animation: gradient 3s infinite;
+  }
+
+  .jello {
+    color: var(--color-light-mode);
+
+    &:hover {
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-color: #03e6ff;
+      animation: jello-vertical 0.9s both, bounce 1.2s infinite 0.9s;
+      -webkit-animation: jello-vertical 0.9s both, bounce 1.2s infinite 0.9s;
+    }
+  }
+}
+
+@keyframes jello-vertical {
+  0%, 100% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+}
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.5rem);
+  }
+}

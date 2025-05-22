@@ -1,0 +1,80 @@
+body.light-mode {
+  background-color: var(--color-light-mode);
+  color: var(--color-black);
+
+  .section__title,
+  .cv__title {
+    color: var(--color-purple);
+  }
+
+  a {
+    color: var(--color-white);
+  }
+
+  .jello {
+    color: var(--color-black);
+  }
+
+  .skills__item:hover .tooltip,
+  .tooltip {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+  }
+
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: #ccc;
+
+    .burger-bar {
+      background-color: #fff;
+    }
+  }
+
+  .navbar-tabs-ul {
+    a {
+      color: var(--color-black);
+    }
+  }
+
+  .cv__description,
+  .section__description {
+    color: #333;
+  }
+
+  .project {
+    background: var(--color-black);
+  }
+
+  input,
+  textarea {
+    background: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+  }
+
+  .btn {
+    color: #000;
+    background: var(--main-color);
+
+    &:hover {
+      box-shadow: 0 0 1.5rem var(--main-color);
+    }
+  }
+
+  .contact {
+    background-color: var(--color-white);
+  }
+
+  .projects-heading-article,
+  .section-heading-article,
+  .skills-heading-article,
+  .contact-heading-article {
+    -webkit-text-fill-color: var(--color-black);
+  }
+
+  #labelforvisualmode {
+    background-image: url("/assets/icons/sun.png");
+    background-size: 60%;
+    transform: rotate(360deg);
+  }
+}
