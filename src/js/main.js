@@ -4,7 +4,7 @@ document.querySelector(".sun-toggle-icon")?.addEventListener("click", () => {
 
   const icon = document.querySelector(".sun-toggle-icon");
   const isLight = document.body.classList.contains("light-mode");
-  icon.src = isLight ? "/assets/icons/moon.png" : "/assets/icons/sun.png";
+  icon.src = isLight ? "./assets/icons/moon.png" : "./assets/icons/sun.png";
 });
 
 // Hamburger menu toggle
